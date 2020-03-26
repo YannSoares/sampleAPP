@@ -9,6 +9,8 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 gem 'pg', '>= 0.18', '< 2.0'
 #bootstrap
 gem 'bootstrap-sass', '3.4.1'
+#bcrypt password
+gem 'bcrypt', '3.1.13'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
