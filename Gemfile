@@ -9,6 +9,9 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 gem 'pg', '>= 0.18', '< 2.0'
 #bootstrap
 gem 'bootstrap-sass', '3.4.1'
+#sendgrid
+gem 'sendgrid-ruby'
+
 #faker
 gem 'faker', '2.1.2'
 #paginate2
