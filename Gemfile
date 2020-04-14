@@ -11,7 +11,8 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'bootstrap-sass', '3.4.1'
 #sendgrid
 gem 'sendgrid-ruby'
-
+#devise
+gem 'devise'
 #faker
 gem 'faker', '2.1.2'
 #paginate2
