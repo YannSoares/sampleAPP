@@ -5,6 +5,11 @@ ruby '2.7.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
+#validation_activeStorage
+gem 'active_storage_validations', '0.8.2'
+#imageResizegems
+gem 'image_processing', '1.9.3'
+gem 'mini_magick', '4.9.5'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 #bootstrap
@@ -30,6 +35,8 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+#productionIMages
+gem 'aws-sdk-s3', '1.46.0', require: false
 #teste
 gem 'rails-controller-testing'
 # Use Redis adapter to run Action Cable in production
@@ -64,6 +71,10 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 end
+
+
+
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
