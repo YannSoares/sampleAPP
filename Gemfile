@@ -8,7 +8,7 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 #validation_activeStorage
 gem 'active_storage_validations', '0.8.2'
 #imageResizegems
-gem 'image_processing', '1.9.3'
+gem 'image_processing', '1.12.2'
 gem 'mini_magick', '4.9.5'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
